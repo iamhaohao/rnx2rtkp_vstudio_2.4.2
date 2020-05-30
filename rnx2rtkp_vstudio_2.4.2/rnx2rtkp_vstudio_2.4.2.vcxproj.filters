@@ -15,8 +15,76 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="rnx2rtkp_vstudio_2.4.2.cpp">
+    <ClCompile Include="src\ephemeris.c">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="src\geoid.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ionex.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lambda.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\options.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pntpos.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\postpos.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ppp.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ppp_ar.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\preceph.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qzslex.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rinex.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtcm.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtcm2.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtcm3.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtcm3e.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtkcmn.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtkpos.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sbas.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\solution.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tle.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="rnx2rtkp_vstudio_2.4.2.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\rtklib.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
